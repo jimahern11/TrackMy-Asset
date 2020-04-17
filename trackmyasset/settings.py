@@ -112,7 +112,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
-
+STATIC_ROUTE = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 STATICFILES_DIR = [(os.path.join(BASE_DIR, 'trackmyasset/static'),)]
 
@@ -123,5 +123,7 @@ LOGIN_REDIRECT_URL = 'trip'
 LOGIN_URL = "login"
 
 django_heroku.settings(locals())
+
+
 
 

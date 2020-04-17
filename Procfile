@@ -1,0 +1,1 @@
+web: gunicorn trackmyasset.wsgi
