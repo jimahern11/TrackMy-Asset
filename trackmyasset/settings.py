@@ -114,7 +114,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 STATIC_ROUTE = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
-STATICFILES_DIR = [(os.path.join(BASE_DIR, 'trackmyasset/static'),)]
+STATICFILES_DIR = [(os.path.join(BASE_DIR, 'trackmyasset/static/'),)]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
