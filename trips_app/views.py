@@ -26,11 +26,7 @@ def trip(request):
         paginator = Paginator(all_Trips, 10)
         page = request.GET.get('page')
         all_Trips = paginator.get_page(page)
-        # t = loader.get_template('trip.html')
-        #t = loader.get_template('trips_app/trip.html')
-        #c = {'all_Trips': all_Trips}
         return render(request, 'trip.html', {'all_Trips': all_Trips})
-        #return HttpResponse(t.render(c, request), content_type='application/xhtml+xml')
 
 
 def contact(request):
@@ -45,6 +41,16 @@ def index(request):
         'index_text': "Welcome from the Index Page"
     }
     return render(request, 'index.html', context)
+
+
+def map(request):
+
+    mapbox_access_token = 'pk.my_mapbox_access_token'
+    return render(request, 'map.html',
+                  {'mapbox_access_token': mapbox_access_token})
+
+    #return render(request, 'map.html', context)
+
 
 
 def about(request):

@@ -3,7 +3,8 @@ from django.contrib import admin
 from django.urls import path, include
 # noinspection PyUnresolvedReferences
 from trips_app import views as trips_app_views
-from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -12,5 +13,6 @@ urlpatterns = [
     path('account/', include('users_app.urls')),
     path('contact', trips_app_views.contact, name='contact'),
     path('about', trips_app_views.about, name='about'),
+    path('map', trips_app_views.map, name='map'),
 ]
 
