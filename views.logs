@@ -1388,3 +1388,5 @@ Traceback (most recent call last):
     raise TemplateDoesNotExist(template_name, chain=chain)
 django.template.exceptions.TemplateDoesNotExist: default.html
 INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.

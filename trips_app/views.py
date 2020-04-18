@@ -8,6 +8,7 @@ from django.contrib.auth.decorators import login_required
 import logging
 from django.template import loader
 
+
 logging.basicConfig(filename='views.logs', level=logging.DEBUG)
 
 
@@ -48,7 +49,6 @@ def map(request):
     mapbox_access_token = 'pk.my_mapbox_access_token'
     return render(request, 'map.html',
                   {'mapbox_access_token': mapbox_access_token})
-
     #return render(request, 'map.html', context)
 
 
