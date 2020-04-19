@@ -59,7 +59,7 @@ def map(request):
     #print("--------------" * 20, '\n', request)
     #print(response)
     #return render(request, 'map.html',{})
-    return HttpResponse()
+    return HttpResponse('<h1>Hello from maps</h1')
     #return render(request, 'map.html', context)
 
 
