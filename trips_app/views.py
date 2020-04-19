@@ -44,13 +44,23 @@ def index(request):
     return render(request, 'index.html', context)
 
 
-def map(request):
-
-    mapbox_access_token = 'pk.my_mapbox_access_token'
-    return render(request, 'map.html',
-                  {'mapbox_access_token': mapbox_access_token})
+#def map(request):
+    #mapbox_access_token = 'pk.my_mapbox_access_token'
+    #print("--------------"*20, '\n', request.headers)
+    #print("--------------" * 20, '\n', request)
+    #return render(request, 'map.html',
+                  #{'mapbox_access_token': mapbox_access_token})
     #return render(request, 'map.html', context)
 
+
+def map(request):
+    #mapbox_access_token = 'pk.my_mapbox_access_token'
+    #print("--------------"*20, '\n', request.headers)
+    #print("--------------" * 20, '\n', request)
+    #print(response)
+    #return render(request, 'map.html',{})
+    return HttpResponse()
+    #return render(request, 'map.html', context)
 
 
 def about(request):

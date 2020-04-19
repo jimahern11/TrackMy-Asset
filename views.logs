@@ -1390,3 +1390,49 @@ django.template.exceptions.TemplateDoesNotExist: default.html
 INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
 INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
 INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+WARNING:django.request:Not Found: /'images/gps.jpg'
+WARNING:django.request:Not Found: /'images/gps.jpg'
+WARNING:django.request:Not Found: /'images/gps.jpg'
+WARNING:django.request:Not Found: /'images/gps.jpg'
+WARNING:django.request:Not Found: /'images/gps.jpg'
+WARNING:django.request:Not Found: /trackmyasset/static/images/gps.jpg
+WARNING:django.request:Not Found: /trackmyasset/static/images/gps.jpg
+WARNING:django.request:Not Found: /TrackMyAsset-project/static/images/gps.jpg
+WARNING:django.request:Not Found: /TrackMyAsset-project/static/images/gps.jpg
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /map
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py", line 57, in map
+    response = request.data
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.

@@ -9,7 +9,8 @@
        <div class="row mt-5">
             <div class="col-lg-4">
                 <img src="{% static 'images\gps.jpg' %}" class="rounded-lg shadow-sm" alt="GPS"/>
-                <img src="{% static '.\images\gps.jpg' %}" alt="Notes" class="rounded-lg shadow-sm" width="360" height="250">
+                <img src="{% static 'images\gps.jpg' %}" alt="Notes" class="rounded-lg shadow-sm" width="360" height="250">
+                <img src="{{ STATIC_URL }}static/images/gps.jpg">
             </div>
             <div class="col-lg-4">
             </div>
@@ -20,7 +21,7 @@
                <div class="col-md-10 offset-md-1">
                    <center><p class="h1 text-primary" >Welcome to Track my Asset homepage</p></center>
                    <center><p class="h2 mt-3">Please login or Register</p></center>
-                    <center><p class="h5">TrackMyAsset Lets You Keep Track Of Your Assets In One Place  </p></center>
+                    <center><p class="h5">Let TrackMyAsset Keep Track Of Your Assets In One Place  </p></center>
                    <center><a href="{% url 'trip' %}" ><button type="button" class="btn btn-primary btn-lg mt-3 shadow">Let's Get Started</button></center></a>
                 </div>
            </div>
