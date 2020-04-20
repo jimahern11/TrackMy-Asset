@@ -45,7 +45,7 @@ def index(request):
 
 
 def map(request):
-    payload = requset.body
+    payload = request.body
     print(payload)
     if request.method == 'GET':
         json_data = json.loads(request.body)  # request.raw_post_data w/ Django < 1.4
