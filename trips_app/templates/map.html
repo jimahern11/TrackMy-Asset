@@ -16,37 +16,63 @@
 
       </head>
 
-      <body>
+
+      <p>Your current latitude location is {{ request.latitude}}</p>
       <h1>Hello from the map page</h1>
+
         <br/>
+    <body>
+
+        <p>Click the button to get your coordinates.</p>
+
+        <button onclick="getLocation()">Try It</button>
+
+        <p id="demo"></p>
+
+         <script>
+            var x = document.getElementById("demo");
+
+            function getLocation() {
+              if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+              } else {
+                x.innerHTML = "Geolocation is not supported by this browser.";
+              }
+            }
+
+            function showPosition(position) {
+              x.innerHTML = "Latitude: " + position.coords.latitude +
+              "<br>Longitude: " + position.coords.longitude;
+            }
+            </script>
             <div id='map' style='width: 100%; height: 400px;'></div>
-        <script>
+             <script>
 
-            mapboxgl.accessToken = 'pk.eyJ1IjoiamltYWhlcm4xMSIsImEiOiJjazk0aDdxb3AwNTV2M2dvdXBoM3R1MXR4In0.TPDbIqO_Nj9PJjWZuYly-w';
-                var map = new mapboxgl.Map({
-                container: 'map',
-                style: 'mapbox://styles/mapbox/streets-v11',
-                center: [-8.690310, 52.667700],
-                zoom: 10.7
-                });
-                map.addControl(new mapboxgl.NavigationControl());
-                map.on('click', function(e) {
-                  var features = map.queryRenderedFeatures(e.point, {
-                    layers: ['layer-name-here'] // replace this with the name of the layer
-                  });
+                mapboxgl.accessToken = 'pk.eyJ1IjoiamltYWhlcm4xMSIsImEiOiJjazk0aDdxb3AwNTV2M2dvdXBoM3R1MXR4In0.TPDbIqO_Nj9PJjWZuYly-w';
+                    var map = new mapboxgl.Map({
+                    container: 'map',
+                    style: 'mapbox://styles/mapbox/streets-v11',
+                    center: [-8.690310, 52.667700],
+                    zoom: 10.7
+                    });
+                    map.addControl(new mapboxgl.NavigationControl());
+                    map.on('click', function(e) {
+                      var features = map.queryRenderedFeatures(e.point, {
+                        layers: ['layer-name-here'] // replace this with the name of the layer
+                      });
 
-                  if (!features.length) {
-                    return;
-                  }
+                      if (!features.length) {
+                        return;
+                      }
 
-                  var feature = features[0];
+                      var feature = features[0];
 
-                  var popup = new mapboxgl.Popup({ offset: [0, -15] })
-                    .setLngLat(feature.geometry.coordinates)
-                    .setHTML('<h3>' + feature.properties.title + '</h3><p>' + feature.properties.description + '</p>')
-                    .addTo(map);
-                });
-        </script>
+                      var popup = new mapboxgl.Popup({ offset: [0, -15] })
+                        .setLngLat(feature.geometry.coordinates)
+                        .setHTML('<h3>' + feature.properties.title + '</h3><p>' + feature.properties.description + '</p>')
+                        .addTo(map);
+                    });
+            </script>
 
       </body>
     </html>

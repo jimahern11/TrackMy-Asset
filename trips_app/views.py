@@ -44,22 +44,24 @@ def index(request):
     return render(request, 'index.html', context)
 
 
-#def map(request):
-    #mapbox_access_token = 'pk.my_mapbox_access_token'
-    #print("--------------"*20, '\n', request.headers)
-    #print("--------------" * 20, '\n', request)
-    #return render(request, 'map.html',
-                  #{'mapbox_access_token': mapbox_access_token})
-    #return render(request, 'map.html', context)
-
-
 def map(request):
-    #mapbox_access_token = 'pk.my_mapbox_access_token'
-    #print("--------------"*20, '\n', request.headers)
-    #print("--------------" * 20, '\n', request)
-    #print(response)
-    #return render(request, 'map.html',{})
-    return HttpResponse('<h1>Hello from maps</h1')
+    payload = requset.body
+    print(payload)
+    if request.method == 'GET':
+        json_data = json.loads(request.body)  # request.raw_post_data w/ Django < 1.4
+        try:
+            data = json_data['data']
+        except KeyError:
+            HttpResponseServerError("Malformed data!")
+        HttpResponse("Got json data")
+    context = {
+        'latitude' : 'request.latitude'
+    }
+    mapbox_access_token = 'pk.my_mapbox_access_token'
+    print("--------------"*20, '\n', request.headers)
+    print("--------------" * 20, '\n', request)
+    return render(request, 'map.html',
+                  {'mapbox_access_token': mapbox_access_token},context)
     #return render(request, 'map.html', context)
 
 
