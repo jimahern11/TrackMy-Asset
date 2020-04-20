@@ -48,13 +48,6 @@ def index(request):
 def map(request):
     payload = request.body
     print(payload)
-    if request.method == 'GET':
-        json_data = json.loads(request.body)  # request.raw_post_data w/ Django < 1.4
-        try:
-            data = json_data['data']
-        except KeyError:
-            HttpResponseServerError("Malformed data!")
-        HttpResponse("Got json data")
     context = {
         'latitude' : 'request.latitude'
     }
