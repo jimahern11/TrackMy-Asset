@@ -7,6 +7,7 @@ from django.core.paginator import Paginator
 from django.contrib.auth.decorators import login_required
 import logging
 from django.template import loader
+import json
 
 
 logging.basicConfig(filename='views.logs', level=logging.DEBUG)
