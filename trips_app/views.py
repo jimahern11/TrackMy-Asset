@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from trips_app.models import Trips
+from trips_app.models import Locations
 from trips_app.forms import TaskForm
 from django.contrib import messages
 from django.core.paginator import Paginator
@@ -24,7 +25,8 @@ def trip(request):
         messages.success(request, "New Trip Added:")
         return redirect('trip')
     else:
-        all_Trips = Trips.objects.filter(owner=request.user)
+        all_Trips = Locations.objects.filter(owner=request.user)
+        #all_Trips = Trips.objects.filter(owner=request.user)
         paginator = Paginator(all_Trips, 10)
         page = request.GET.get('page')
         all_Trips = paginator.get_page(page)
@@ -75,7 +77,7 @@ def about(request):
 
 @login_required()
 def delete_task(request, task_id):
-    task = Trips.objects.get(pk=task_id)
+    task = Locations.objects.get(pk=task_id)
     if task.owner == request.user:
         task.delete()
     else:
@@ -105,7 +107,7 @@ def pending_task(request, task_id):
 @login_required()
 def edit_task(request, task_id):
     if request.method == "POST":
-        task = Trips.objects.get(pk=task_id)
+        task = Locations.objects.get(pk=task_id)
         form = TaskForm(request.POST or None, instance=task)
         if form.is_valid():
             form.save()
