@@ -47,13 +47,20 @@ def index(request):
 
 def map(request):
     payload = request.body
-    print(payload)
+
+    #data = json.dumps(request)
+    #print('what is in data',str(data))
+    print('What is in this paylaod',payload)
+
+    print('what is here',type(payload.decode()))
+    print('what is the lengt of payload',len(payload))
+
     context = {
         'latitude' : 'request.latitude'
     }
     mapbox_access_token = 'pk.my_mapbox_access_token'
-    print("--------------"*20, '\n', request.headers)
-    print("--------------" * 20, '\n', request)
+    #print("--------------"*20, '\n', request.headers)
+    #print("--------------" * 20, '\n', request)
     return render(request, 'map.html',
                   {'mapbox_access_token': mapbox_access_token},context)
     #return render(request, 'map.html', context)
