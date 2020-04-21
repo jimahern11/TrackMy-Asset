@@ -22,26 +22,24 @@
         {% endif %}
 
 </br>
-      <table class="table table-bordered text-center">
-          <thead class="thead-dark">
-              <tr class="row">
-                <th class="col-4">Location</th>
-                <th class="col-2">Latitude</th>
-                <th class="col-2">Longitude</th>
-                <th class="col-1">Speed</th>
-                  <th class="col-1">Altitude</th>
-                  <th class="col-1">Date & Time</th>
-                  <th class="col-1">Delete</th>
 
-              </tr>
-          </thead>
-        <tbody>
+              <table class="table table-bordered text-center">
+                  <thead class="thead-dark">
+                      <tr class="row">
+                        <th class="col-4">Location</th>
+                        <th class="col-2">Latitude</th>
+                        <th class="col-2">Longitude</th>
+                        <th class="col-1">Speed</th>
+                          <th class="col-1">Altitude</th>
+                          <th class="col-1">Date & Time</th>
+                          <th class="col-1">Delete</th>
 
+                      </tr>
+                  </thead>
+                <tbody>
+              {% for obj in all_Trips %}
 
-          {% for obj in all_Trips %}
-
-
-                <tr class="table-success row">
+                    <tr class="table-success row">
                    <td class="col-4">{{ obj.location}}</td>
                     <td class="col-2">
                         {{ obj.latitude}}
@@ -61,7 +59,6 @@
 
                   <td class="col-1"><a href="{% url 'delete_task' obj.id %}"><button type="button" class="btn btn-danger">Delete</button></a></td>
                 </tr>
-
           {% endfor %}
 
       </tbody>
