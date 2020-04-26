@@ -1,8 +1,7 @@
 import folium
 import requests
 
-r = requests.get('http://192.168.43.25/gps_dashboard.py')
-print("what is coming in r", r)
+
 
 #Global Tooltip
 tooltip = 'Click For More Info'

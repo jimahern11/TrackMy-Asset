@@ -9,6 +9,7 @@ from django.contrib.auth.decorators import login_required
 import logging
 from django.template import loader
 import json
+import requests
 
 
 logging.basicConfig(filename='views.logs', level=logging.DEBUG)
@@ -48,6 +49,8 @@ def index(request):
 
 
 def map(request):
+    #r = requests.get('http://127.0.0.1:800/')
+    #print("what is coming in r", r)
     payload = request.body
 
     #data = json.dumps(request)
