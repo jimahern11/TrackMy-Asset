@@ -33,6 +33,12 @@ def trip(request):
         all_Trips = paginator.get_page(page)
         return render(request, 'trip.html', {'all_Trips': all_Trips})
 
+def save_trips_json(request):
+    if request.method == "POST":
+        #form = TaskForm(request.POST or None)
+        print('Raw Data: "%s"' % request.raw_post_data)
+    return HttpResponse("OK")
+
 
 def contact(request):
     context = {
