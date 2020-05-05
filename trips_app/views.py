@@ -77,6 +77,7 @@ def map(request):
 
     print('what is here',type(payload.decode()))
     print('what is the length of payload',len(payload))
+    json_string = json.dumps(response)
 
     context = {
         'latitude' : 'request.latitude'
@@ -85,7 +86,7 @@ def map(request):
     #print("--------------"*20, '\n', request.headers)
     #print("--------------" * 20, '\n', request)
     return render(request, 'map.html',
-                  {'mapbox_access_token': mapbox_access_token},context)
+                  {'mapbox_access_token': mapbox_access_token},{'dataset': json_string})
     #return render(request, 'map.html', context)
 
 
