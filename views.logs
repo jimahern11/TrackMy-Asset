@@ -3095,3 +3095,6 @@ Traceback (most recent call last):
 requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.1.25', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A283830F98>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
 INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
 WARNING:django.request:Not Found: /mapbox-icon.png
+WARNING:django.request:Not Found: /mapbox-icon.png
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.

@@ -54,7 +54,15 @@ def index(request):
     return render(request, 'index.html', context)
 
 
+def mapJsonData(request):
+    response = requests.request("GET", url, data=payload, headers=headers, params=querystring)
+    json_string = json.dumps(response)
+    return render(request, 'map.html', {'dataset': json_string})
+
+
+
 def map(request):
+
     #r = requests.get('http://127.0.0.1:800/')
     #print("what is coming in r", r)
     payload = request.body

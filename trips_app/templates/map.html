@@ -29,6 +29,12 @@
     <body>
     {% csrf_token %}
     <p>what is here {{ latitude }}</p>
+        {% for k,v in dataset.items %}
+            <tr>
+            <td>
+            {{k}}:{{v}}</td>
+            <tr>
+        {% endfor %}
 
         <p>Click the button to get your coordinates.</p>
 
