@@ -58,9 +58,9 @@ def map(request):
     #r = requests.get('http://127.0.0.1:800/')
     #print("what is coming in r", r)
     payload = request.body
-    response = requests.get('http://192.168.1.25')
+    #response = requests.get('http://192.168.1.25')
 
-    print(response.status_code)
+    #print(response.status_code)
     #print(response.content)
 
     #data = json.dumps(request)
