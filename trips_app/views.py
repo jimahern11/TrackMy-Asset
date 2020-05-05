@@ -87,7 +87,7 @@ def map(request):
     #print("--------------"*20, '\n', request.headers)
     #print("--------------" * 20, '\n', request)
     return render(request, 'map.html',
-                  {'mapbox_access_token': mapbox_access_token},{'dataset': json_string})
+                  {'mapbox_access_token': mapbox_access_token},context)
     #return render(request, 'map.html', context)
 
 
