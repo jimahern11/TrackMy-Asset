@@ -77,6 +77,7 @@ def map(request):
 
     print('what is here',type(payload.decode()))
     print('what is the length of payload',len(payload))
+    response = requests.request("GET", url, data=payload, headers=headers, params=querystring)
     json_string = json.dumps(response)
 
     context = {
