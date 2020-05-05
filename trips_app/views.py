@@ -58,13 +58,15 @@ def map(request):
     #r = requests.get('http://127.0.0.1:800/')
     #print("what is coming in r", r)
     payload = request.body
+    response = requests.get('http://192.168.43.25')
+    print(response.content)
 
     #data = json.dumps(request)
     #print('what is in data',str(data))
-    print('What is in this paylaod',payload)
+    print('What is in this payload',payload)
 
     print('what is here',type(payload.decode()))
-    print('what is the lengt of payload',len(payload))
+    print('what is the length of payload',len(payload))
 
     context = {
         'latitude' : 'request.latitude'
