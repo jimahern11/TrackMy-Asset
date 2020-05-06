@@ -6,7 +6,23 @@
 {% endblock title %}
 
 {% block content %}
+<div class="row mt-5">
     <div class='container'>
-        <h1>{{ contact_text }}</h1>
+        <center><p class="h1 text-primary" >{{ contact_text }}</p></center>
+
+         <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s with
+            the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.</p>
+
+        <center><p class="h2 mt-3">Please login or Register</p></center>
+                    <center><p class="h5">Let TrackMyAsset Keep Track Of Your Assets In One Place  </p></center>
+                   <center><a href="{% url 'trip' %}" ><button type="button" class="btn btn-primary btn-lg mt-3 shadow">Let's Get Started</button></center></a>
     </div>
+</div>
+
 {% endblock content %}

@@ -33,6 +33,8 @@ def trip(request):
         all_Trips = paginator.get_page(page)
         return render(request, 'trip.html', {'all_Trips': all_Trips})
 
+
+
 def save_trips_json(request):
     if request.method == "POST":
         #form = TaskForm(request.POST or None)
@@ -62,17 +64,26 @@ def mapJsonData(request):
 
 
 def save_trips(request):
-    if request.method=='POST':
-        print('RAW DATA : "%s"' % request.body)
-    return HttpResponse("OK")
+    if request.method == 'POST':
+        json_data = json.loads(request.body)  # request.raw_post_data w/ Django < 1.4
+        try:
+            data = json_data['data']
+        except KeyError:
+            HttpResponseServerError("Malformed data!")
+        HttpResponse("Got json data")
+        return render(request, 'map.html',
+                      {'mapbox_access_token': mapbox_access_token}, data)
 
 
 
 def map(request):
-
     #r = requests.get('http://127.0.0.1:800/')
     #print("what is coming in r", r)
     payload = request.body
+    print('what is in payload',type(payload))
+    test = payload.decode()
+    print('what type is here',type(test))
+    print('what is in test',len(test))
     #response = requests.get('http://192.168.1.25')
 
     #print(response.status_code)
