@@ -16,7 +16,7 @@
         <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
         <style>
             .marker {
-                background-image: url('mapbox-icon.png');
+                background-image: url('C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\templates\assets\mapbox-icon.png');
                 background-size: cover;
                 width: 50px;
                 height: 50px;
@@ -27,6 +27,8 @@
       </head>
         <br/>
     <body>
+
+
     {% csrf_token %}
     <p>what is here {{ latitude }}</p>
         {% for k,v in dataset.items %}
@@ -65,7 +67,7 @@
                     container: 'map',
                     style: 'mapbox://styles/mapbox/streets-v11',
                     center: [-8.690310, 52.667700],
-                    zoom: 10.7
+                    zoom: 12.7
                     });
                     var geojson = {
                       type: 'FeatureCollection',

@@ -61,6 +61,13 @@ def mapJsonData(request):
 
 
 
+def save_trips(request):
+    if request.method=='POST':
+        print('RAW DATA : "%s"' % request.body)
+    return HttpResponse("OK")
+
+
+
 def map(request):
 
     #r = requests.get('http://127.0.0.1:800/')
