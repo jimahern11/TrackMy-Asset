@@ -3275,3 +3275,768 @@ INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyA
 INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
 INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
 INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /map
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py", line 95, in map
+    HttpRequest.get_port()
+NameError: name 'HttpRequest' is not defined
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /map
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py", line 95, in map
+    HttpRequest.get_port()
+TypeError: get_port() missing 1 required positional argument: 'self'
+ERROR:django.request:Internal Server Error: /map
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py", line 95, in map
+    HttpRequest.get_port()
+TypeError: get_port() missing 1 required positional argument: 'self'
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /map
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: map() missing 1 required positional argument: 'request'
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /map
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py", line 82, in map
+    payload = request.body
+NameError: name 'request' is not defined
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /map
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py", line 95, in map
+    HttpRequest.get_port(self)
+NameError: name 'self' is not defined
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+WARNING:django.request:Not Found: /style.css
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "C:\Program Files\Python37\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py", line 56, in index
+    return render(request, 'index.html', context)
+  File "C:\Program Files\Python37\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "C:\Program Files\Python37\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py", line 56, in index
+    return render(request, 'index.html', context)
+  File "C:\Program Files\Python37\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /map
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py", line 82, in map
+    pay = request.data
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /map
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py", line 80, in map
+    data = request.data
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /map
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py", line 80, in map
+    data = request.data
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "C:\Program Files\Python37\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py", line 56, in index
+    return render(request, 'index.html', context)
+  File "C:\Program Files\Python37\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py", line 56, in index
+    return render(request, 'index.html',RequestContext(request,conetxt))
+NameError: name 'RequestContext' is not defined
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+WARNING:django.request:Not Found: /gps.jpeg
+WARNING:django.request:Not Found: /gps.jpeg
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trackmyasset\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /map
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py", line 81, in map
+    payload = requests.get('http://127.0.0.1:631', params = parameters)
+NameError: name 'parameters' is not defined
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:631
+ERROR:django.request:Internal Server Error: /map
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "C:\Program Files\Python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000027C30297940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=631): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027C30297940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py", line 81, in map
+    payload = requests.get('http://127.0.0.1:631')
+  File "C:\Program Files\Python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=631): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027C30297940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:631
+ERROR:django.request:Internal Server Error: /map
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "C:\Program Files\Python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000027C30456E80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=631): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027C30456E80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py", line 81, in map
+    payload = requests.get('http://127.0.0.1:631')
+  File "C:\Program Files\Python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=631): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027C30456E80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:631
+ERROR:django.request:Internal Server Error: /map
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "C:\Program Files\Python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000027C30566128>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=631): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027C30566128>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py", line 81, in map
+    payload = requests.get('http://127.0.0.1:631')
+  File "C:\Program Files\Python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=631): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027C30566128>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:631
+ERROR:django.request:Internal Server Error: /map
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "C:\Program Files\Python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001F1B8A60FD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=631): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F1B8A60FD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py", line 81, in map
+    payload = requests.get('http://127.0.0.1:631/')
+  File "C:\Program Files\Python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=631): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F1B8A60FD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:631
+ERROR:django.request:Internal Server Error: /map
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "C:\Program Files\Python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001F1B8D5CA58>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=631): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F1B8D5CA58>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py", line 81, in map
+    payload = requests.get('http://127.0.0.1:631/')
+  File "C:\Program Files\Python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=631): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F1B8D5CA58>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.1.25:80
+ERROR:django.request:Internal Server Error: /map
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "C:\Program Files\Python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000027D5D9B6BE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.1.25', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027D5D9B6BE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py", line 81, in map
+    payload = requests.get('http://192.168.1.25:80/')
+  File "C:\Program Files\Python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.1.25', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027D5D9B6BE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:2947
+ERROR:django.request:Internal Server Error: /map
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "C:\Program Files\Python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000018DD4B7B940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Program Files\Python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=2947): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018DD4B7B940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py", line 81, in map
+    payload = requests.get('http://127.0.0.1:2947/')
+  File "C:\Program Files\Python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Program Files\Python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=2947): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018DD4B7B940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO:django.utils.autoreload:C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\views.py changed, reloading.

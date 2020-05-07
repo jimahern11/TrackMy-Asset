@@ -5,6 +5,7 @@ from django.urls import path, include
 from trips_app import views as trips_app_views
 from django.conf import settings
 from django.conf.urls.static import static
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -15,4 +16,4 @@ urlpatterns = [
     path('about', trips_app_views.about, name='about'),
     path('map', trips_app_views.map, name='map'),
 ]
-
+urlpatterns += staticfiles_urlpatterns()

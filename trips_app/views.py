@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from django.http import HttpResponse
+from django.http import HttpResponse,HttpRequest
 from trips_app.models import Trips
 from trips_app.models import Locations
 from trips_app.forms import TaskForm
@@ -35,11 +35,11 @@ def trip(request):
 
 
 
-def save_trips_json(request):
-    if request.method == "POST":
-        #form = TaskForm(request.POST or None)
-        print('Raw Data: "%s"' % request.raw_post_data)
-    return HttpResponse("OK")
+def get_trip_data(request):
+    url = 'http://localhost:8000/map/'
+    r = requests.get(url)
+    titles = r.json()
+    print('what is in data',titles['data'])
 
 
 def contact(request):
@@ -57,6 +57,7 @@ def index(request):
 
 
 def mapJsonData(request):
+    url = 'http://127.0.0.1:8000'
     response = requests.request("GET", url, data=payload, headers=headers, params=querystring)
     json_string = json.dumps(response)
     return render(request, 'map.html', {'dataset': json_string})
@@ -77,8 +78,10 @@ def save_trips(request):
 
 
 def map(request):
+    #payload = requests.get('http://127.0.0.1:2947/')
     #r = requests.get('http://127.0.0.1:800/')
     #print("what is coming in r", r)
+
     payload = request.body
     print('what is in payload',type(payload))
     test = payload.decode()
@@ -92,6 +95,7 @@ def map(request):
     #data = json.dumps(request)
     #print('what is in data',str(data))
     print('What is in this payload',payload)
+
 
     print('what is here',type(payload.decode()))
     print('what is the length of payload',len(payload))

@@ -30,10 +30,12 @@
 
 
     {% csrf_token %}
-    <p>what is here {{ latitude }}</p>
+    <p>what is here {{ latitude.latitude }}</p>
         {% for k,v in dataset.items %}
+            <p>latitude</p>
             <tr>
             <td>
+
             {{k}}:{{v}}</td>
             <tr>
         {% endfor %}
@@ -60,8 +62,11 @@
               "<br>Longitude: " + position.coords.longitude;
             }
             </script>
+
             <div id='map' style='width: 100%; height: 400px;'></div>
+
              <script>
+
                 mapboxgl.accessToken = 'pk.eyJ1IjoiamltYWhlcm4xMSIsImEiOiJjazk0aDdxb3AwNTV2M2dvdXBoM3R1MXR4In0.TPDbIqO_Nj9PJjWZuYly-w';
                     var map = new mapboxgl.Map({
                     container: 'map',
@@ -69,20 +74,20 @@
                     center: [-8.690310, 52.667700],
                     zoom: 10.7
                     });
-                    var geojson = {
-                      type: 'FeatureCollection',
-                      features: [{
-                          type: 'Feature',
+                    var geojson = [
+                        {
+                      type: 'Feature',
                           geometry: {
                               type: 'Point',
                               coordinates: [-8.6026825, 52.683880167]
                           },
-                          properties: {
-                              title: 'Mapbox',
-                              description: 'Your current location'
+                             properties: {
+                                 'marker-color': '#3bb2d0',
+                                 'marker-size': 'large',
+                                 'marker-symbol': 'rocket'
+                             }
                           }
-                      }]
-                    };
+                    ];
 
                    // add markers to map
                                 geojson.features.forEach(function(marker) {

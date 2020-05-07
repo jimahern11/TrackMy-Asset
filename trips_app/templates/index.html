@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load static %}
+{% load static from staticfiles%}
 {% block title %}
 <title>Welcome to TrackMyAsset!</title>
 {% endblock title %}
@@ -8,13 +8,14 @@
     <div class='container'>
        <div class="row mt-5">
             <div class="col-lg-4">
-                <img src="{% static "C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\static\images\gps.jpg"%}">
-                <img src="C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\static\images\gps.jpeg">
-                <img src="C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\trips_app\templates\assets\gps.jpg">
+                <img src="{% static 'gps.jpeg' %}" alt="Notes" class="rounded-lg shadow-sm" width="360" height="250">
+                <a href="{% static 'gps.jpeg' %}"></a>
+
             </div>
             <div class="col-lg-4">
+                <img src="{% static 'stickynotes-1.jpg' %}" alt="Notes" class="rounded-lg shadow-sm" width="360" height="250">
 
-                <img src="C:\Users\jimah\Desktop\TrackMyAsset-Django\TrackMyAsset-project\trackmyasset\static\images\gps.jpeg" alt="..." class="img-thumbnail">
+                <img src="{% static 'images\gps.jpeg' %}" alt="..." class="img-thumbnail">
             </div>
             <div class="col-lg-4">
             </div>
