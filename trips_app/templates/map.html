@@ -11,7 +11,7 @@
     <html>
       <head>
 
-          <title>Interactive maps for Django web apps</title>
+          <title>Track My Asset</title>
         <title>Interactive maps for Django web apps</title><script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
         <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
         <style>
@@ -30,6 +30,7 @@
 
 
     {% csrf_token %}
+    {{ request.headers.latitude }}
     <p>what is here {{ latitude.latitude }}</p>
         {% for k,v in dataset.items %}
             <p>latitude</p>
