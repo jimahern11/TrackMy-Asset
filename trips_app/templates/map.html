@@ -30,7 +30,7 @@
 
 
     {% csrf_token %}
-    {{ request.headers }}
+    {{ request.latitude }}
     <p>what is here {{ latitude.latitude }}</p>
         {% for k,v in dataset.items %}
             <p>latitude</p>
