@@ -28,18 +28,44 @@
         <br/>
     <body>
 
+    {% for key, value in request.GET.items %}
+        {{key}} = {{value}}
+    {% endfor %}
 
-    {% csrf_token %}
-    {{ request.latitude }}
-    <p>what is here {{ latitude.latitude }}</p>
-        {% for k,v in dataset.items %}
-            <p>latitude</p>
-            <tr>
-            <td>
+    <div>
+    <h1>TrackMyAsset</h1>
+</div>
+    <p>What speed is it travelling at </p>{{ gps_data.1.gps_data}}
+    {{ person|length}}
+  {{ gps|slice:":1" }}
+    <p> what is the length of the gps_data dict {{ gps_data|length}}</p>
+    {{ gps|length}}
+    {{gps.latitude}}
+    {{ gps.where_is_it}}
+    {{request.get.latitude}}
+    {{ gps}}
 
-            {{k}}:{{v}}</td>
-            <tr>
-        {% endfor %}
+
+    {% for key in gps %}
+        {{ key }}
+
+    {% endfor %}
+
+{% for list in lists %}
+    <div>
+        <p>published: {{ list.latitude }}</p>
+        <h2>{{ list.longitude }}</h2>
+
+    </div>
+{% endfor %}
+        {% for data in gps_data %}
+            <p>{{ data }}</p>
+        {% endfor%}
+
+
+
+        {{person.firstname}} {{ person.lastname}}
+
 
         <p>Click the button to get your coordinates.</p>
 

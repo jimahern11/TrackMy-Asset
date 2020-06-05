@@ -16,4 +16,5 @@ urlpatterns = [
     path('about', trips_app_views.about, name='about'),
     path('map', trips_app_views.map, name='map'),
 ]
+
 urlpatterns += staticfiles_urlpatterns()

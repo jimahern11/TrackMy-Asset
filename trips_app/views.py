@@ -10,6 +10,7 @@ import logging
 from django.template import loader
 import json
 import requests
+from django.http import JsonResponse
 
 
 logging.basicConfig(filename='views.logs', level=logging.DEBUG)
@@ -56,11 +57,11 @@ def index(request):
     return render(request, 'index.html', context)
 
 
-def mapJsonData(request):
-    url = 'http://127.0.0.1:8000'
-    response = requests.request("GET", url, data=payload, headers=headers, params=querystring)
-    json_string = json.dumps(response)
-    return render(request, 'map.html', {'dataset': json_string})
+#def mapJsonData(request):
+    #url = 'http://192.168.1.25:22/gps_dashboard.py'
+    #response = requests.request("GET", url, data=payload, headers=headers, params=querystring)
+    #json_string = json.dumps(response)
+    #return render(request, 'map.html', {'dataset': json_string})
 
 
 
@@ -78,39 +79,44 @@ def save_trips(request):
 
 
 def map(request):
-    #payload = requests.get('http://127.0.0.1:2947/')
-    #r = requests.get('http://127.0.0.1:800/')
-    #print("what is coming in r", r)
 
-    payload = request.body
-    print('what is in payload',type(payload))
-    test = payload.decode()
-    print('what type is here',type(test))
-    print('what is in test',len(test))
-    #response = requests.get('http://192.168.1.25')
+    latitude = request.GET.get('latitude')
+    long = request.GET.get('longitude')
+    print('anything here kkkkkkkkkkkkkkkk', latitude)
+    print('anything here kkkkkkkkkkkkkkkk', long)
+    print("--------------" * 20, '\n')
 
-    #print(response.status_code)
-    #print(response.content)
+    gps_data = []
+    for key, value in request.GET.items():
+        gps_data.append(value)
+        gps_data.sort()
+        print('The Key is : %s' % (key))
+        print('The Value is : %s' % (value))
+        print("--------------" * 20, '\n')
+        print('What is in the list',gps_data)
+        print('What type is gps data :',type(gps_data))
+        #print(request.GET.items())
 
-    #data = json.dumps(request)
-    #print('what is in data',str(data))
-    print('What is in this payload',payload)
-
-
-    print('what is here',type(payload.decode()))
-    print('what is the length of payload',len(payload))
-    #response = requests.request("GET", params=querystring)
-    #json_string = json.dumps(response)
+    #print("--------------"*20, '\n', request.headers)
+    print('what is in the request attribute',"--------------" * 20, '\n', request)
+    person = {'firstname' : 'James','lastname': 'Ahern'}
+    gps = [ 52.65897, 123456, 'westbury']
 
     context = {
-        'latitude' : 'request.latitude'
+        'gps_data': gps_data,
+        'person' : person,
+        'gps' : gps
+
     }
-    mapbox_access_token = 'pk.my_mapbox_access_token'
-    #print("--------------"*20, '\n', request.headers)
-    #print("--------------" * 20, '\n', request)
-    return render(request, 'map.html',
-                  {'mapbox_access_token': mapbox_access_token},context)
-    #return render(request, 'map.html', context)
+    for key, value in context.items():
+        print('What is in the value',value)
+        print('What is in the key', key)
+    print('What type is context',type(context))
+    #return render(request, 'map.html', {'gps_data': gps_data })
+    return render(request, 'map.html', context)
+
+    #return render(request,'map.html',{'list' : ['hello did this work','if so Ill shoot myself']})
+
 
 
 def about(request):
