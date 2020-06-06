@@ -11,6 +11,7 @@ from django.template import loader
 import json
 import requests
 from django.http import JsonResponse
+from calendar import HTMLCalendar
 
 
 logging.basicConfig(filename='views.logs', level=logging.DEBUG)
@@ -86,13 +87,14 @@ def map(request):
     print('anything here kkkkkkkkkkkkkkkk', long)
     print("--------------" * 20, '\n')
 
+
     gps_data = []
     for key, value in request.GET.items():
         gps_data.append(value)
-        gps_data.sort()
+        #gps_data.sort()
         print('The Key is : %s' % (key))
         print('The Value is : %s' % (value))
-        print("--------------" * 20, '\n')
+        #print("--------------" * 20, '\n')
         print('What is in the list',gps_data)
         print('What type is gps data :',type(gps_data))
         #print(request.GET.items())
@@ -101,13 +103,14 @@ def map(request):
     print('what is in the request attribute',"--------------" * 20, '\n', request)
     person = {'firstname' : 'James','lastname': 'Ahern'}
     gps = [ 52.65897, 123456, 'westbury']
-
+    test_data = ['this is a list', 'this is also a list', 'will this work']
     context = {
         'gps_data': gps_data,
         'person' : person,
-        'gps' : gps
-
+        'gps' : gps,
+        'test_data': test_data
     }
+
     for key, value in context.items():
         print('What is in the value',value)
         print('What is in the key', key)

@@ -28,15 +28,20 @@
         <br/>
     <body>
 
-    {% for key, value in request.GET.items %}
-        {{key}} = {{value}}
+    {% for value in gps_data %}
+        {{value}}
     {% endfor %}
 
     <div>
-    <h1>TrackMyAsset</h1>
+    <h1>TrackMyAsset   {{ test_data.0}} </h1>
+        {{test_data.1}}
+        {{test_data.2}}
+        <p>please ???????????????{{ gps_data.1}}</p>
+        <p>Why wont this pass {{ gps_data.0 }}</p>
 </div>
-    <p>What speed is it travelling at </p>{{ gps_data.1.gps_data}}
-    {{ person|length}}
+    <p>What speed is it travelling at </p>
+
+    {{ person | capfirst }}
   {{ gps|slice:":1" }}
     <p> what is the length of the gps_data dict {{ gps_data|length}}</p>
     {{ gps|length}}
@@ -44,7 +49,18 @@
     {{ gps.where_is_it}}
     {{request.get.latitude}}
     {{ gps}}
+    {{ gps| dictsort:"gps"}}
+    <p>Did this print {{person.lastname}}</p>
 
+    {{ gps_data.0}}
+
+<ul>
+{% for gps in gps_data %}
+	<li>{{ gps }}</li>
+{% empty %}
+	<li>Sorry, no GPS Data in this list.</li>
+{% endfor %}
+</ul>
 
     {% for key in gps %}
         {{ key }}
